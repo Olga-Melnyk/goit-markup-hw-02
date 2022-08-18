@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon end -->
     <title>WebStudio</title>
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="page">
     <header class="header">
-      <a class="link-logo" href="./index.html">WebStudio</a>
+      <a class="link-logo" href="./index.html">Web<span class="word">Studio</span></a>
       <nav class="nav">
         <ul class="list">
-          <li class="list-item"><a class="link" href="./index.html">Студія</a></li>
-          <li class="list-item"><a class="link" href="#">Портфоліо</a></li>
-          <li class="list-item"><a class="link" href="#contacts">Контакти</a></li>
+          <li class="list-item"><a class="link-nav active link" href="./index.html">Студія</a></li>
+          <li class="list-item"><a class="link-nav link" href="#">Портфоліо</a></li>
+          <li class="list-item"><a class="link-nav link" href="#contacts">Контакти</a></li>
         </ul>
       </nav>
       <div class="header-group">
@@ -29,12 +33,12 @@
     </header>
     <main>
       <!--Секція шапка-->
-      <section class="section">
+      <section class="section-hero">
         <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="btn" type="button">Замовити послугу</button>
       </section>
       <!--Секція особливості-->
-      <section class="section">
+      <section class="section-features">
         <h2 hidden class="section-title">Особливості</h2>
         <ul class="list">
           <li class="list-item">
@@ -62,7 +66,7 @@
         </ul>
       </section>
       <!--Чим ми займаємося-->
-      <section class="section">
+      <section class="section-about-work">
         <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="list">
           <li class="list-item">
@@ -95,7 +99,7 @@
         </ul>
       </section>
       <!--Наша команда-->
-      <section class="section">
+      <section class="section-team">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li class="list-item">
@@ -145,13 +149,13 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="link-logo" href="./index.html">WebStudio</a>
+    <footer class="footer">
+      <a class="link-logo" href="./index.html">Web<span class="word">Studio</span></a>
       <address class="contacts-address" id="contacts">
         <ul class="list">
           <li class="list-item">
             <a
-              class="link"
+              class="link-address link"
               href="https://goo.gl/maps/eVXacCDSB5PppbcJ8"
               target="_blank"
               rel="noopener noreferrer"
@@ -160,10 +164,10 @@
             </a>
           </li>
           <li class="list-item">
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="list-item">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
