@@ -8,10 +8,14 @@
   --accent-txt-cl: #2196f3;
   --secondary-txt-cl: #757575;
   --white-txt-cl: #ffffff;
+  --black-txt-cl: #000000;
+  --white-txt-cl-60: rgba(255, 255, 255, 0.6);
+
   /* Background colors */
   --accent-bg-cl: #2196f3;
   --main-bg-cl: #2f303a;
   --secondary-bg-cl: #f5f5f5;
+  --light-bg-cl: #f5f4fa;
 
   /* Others */
 }
@@ -43,7 +47,7 @@ body {
 }
 
 .word {
-  color: #000000;
+  color: var(--black-txt-cl);
 }
 
 .header .link {
@@ -141,7 +145,7 @@ body {
 /* Наша команда */
 
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--light-bg-cl);
 }
 
 .section-team .section-title {
@@ -201,10 +205,10 @@ body {
 }
 
 .link-mail {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-txt-cl-60);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-txt-cl-60);
 }
